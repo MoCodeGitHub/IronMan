@@ -17,7 +17,7 @@ class Landing extends Component {
           <h1>Full Stack Developer</h1>
           <hr></hr>
           <p>HTML/CSS | JavaScript | Ruby | Perl | Java | Swift | React | LaLaScript | ETC </p>
-          </div>
+            </div>
           </Cell>
         </Grid>
       </div>
