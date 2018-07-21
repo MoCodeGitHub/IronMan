@@ -60,6 +60,7 @@ class Projects extends Component {
 )
     } else if (this.state.activeTab === 1){
         return (
+          <div className="projects-grid">
           <Card shadow={5} style={{minWidth: '1000', margin: 'auto'}}>
           <CardTitle style={{color: '#ffff', height: '800px',background: 'url(https://cdn.pixabay.com/photo/2017/03/21/00/28/steve-jobs-2160725_960_720.png) center / cover'}}>Swift</CardTitle>
           <CardText>
@@ -74,6 +75,35 @@ class Projects extends Component {
           <IconButton name="" />
           </CardMenu>
           </Card>
+          <Card shadow={5} style={{minWidth: '1000', margin: 'auto'}}>
+          <CardTitle style={{color: '#ffff', height: '800px',background: 'url(https://cdn.pixabay.com/photo/2017/03/21/00/28/steve-jobs-2160725_960_720.png) center / cover'}}>Swift</CardTitle>
+          <CardText>
+          Swift Project
+          </CardText>
+            <CardActions>
+                <Button colored>GitHub</Button>
+                <Button colored>LiveDemo</Button>
+                <Button colored>Download</Button>
+            </CardActions>
+          <CardMenu style={{color: '#ffff'}}>
+          <IconButton name="" />
+          </CardMenu>
+          </Card>
+          <Card shadow={5} style={{minWidth: '1000', margin: 'auto'}}>
+          <CardTitle style={{color: '#ffff', height: '800px',background: 'url(https://cdn.pixabay.com/photo/2017/03/21/00/28/steve-jobs-2160725_960_720.png) center / cover'}}>Swift</CardTitle>
+          <CardText>
+          Swift Project
+          </CardText>
+            <CardActions>
+                <Button colored>GitHub</Button>
+                <Button colored>LiveDemo</Button>
+                <Button colored>Download</Button>
+            </CardActions>
+          <CardMenu style={{color: '#ffff'}}>
+          <IconButton name="" />
+          </CardMenu>
+          </Card>
+        </div>
        )
     } else if (this.state.activeTab === 2){
         return (
