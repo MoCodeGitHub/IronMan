@@ -11,7 +11,7 @@ class Projects extends Component {
     if(this.state.activeTab === 0){
       return(
       <Card shadow={5} style={{minWidth: '1000', margin: 'auto'}}>
-      <CardTitle style={{color: '#ffff', height: '800px',background: 'url(https://cdn.pixabay.com/photo/2016/08/17/13/50/pokemon-1600484_960_720.jpg) center / cover'}}>Find Pikachu</CardTitle>
+      <CardTitle style={{color: '#ffff', height: '800px',background: 'url(https://cdn.pixabay.com/photo/2016/08/17/13/50/pokemon-1600484_960_720.jpg) center / cover'}}></CardTitle>
       <CardText>
       ReactJS Excercise
       </CardText>
@@ -27,7 +27,20 @@ class Projects extends Component {
 )
     } else if (this.state.activeTab === 1){
         return (
-          <div><h1>This is Swift</h1></div>
+          <Card shadow={5} style={{minWidth: '1000', margin: 'auto'}}>
+          <CardTitle style={{color: '#ffff', height: '800px',background: 'url(https://cdn.pixabay.com/photo/2017/03/21/00/28/steve-jobs-2160725_960_720.png) center / cover'}}>Swift</CardTitle>
+          <CardText>
+          Swift Project
+          </CardText>
+            <CardActions>
+                <Button colored>GitHub</Button>
+                <Button colored>LiveDemo</Button>
+                <Button colored>Download</Button>
+            </CardActions>
+          <CardMenu style={{color: '#ffff'}}>
+          <IconButton name="" />
+          </CardMenu>
+          </Card>
        )
     } else if (this.state.activeTab === 2){
         return (
