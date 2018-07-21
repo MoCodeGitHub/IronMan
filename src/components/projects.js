@@ -44,7 +44,20 @@ class Projects extends Component {
        )
     } else if (this.state.activeTab === 2){
         return (
-          <div><h1>This is the Hyperloop Mission</h1></div>
+          <Card shadow={5} style={{minWidth: '1000', margin: 'auto'}}>
+          <CardTitle style={{color: '#ffff', height: '800px',background: 'url(https://cdn.pixabay.com/photo/2016/11/21/12/26/concrete-1845046_960_720.jpg) center / cover'}}>Hyperloop</CardTitle>
+          <CardText>
+          HYPERLOOP Project
+          </CardText>
+            <CardActions>
+                <Button colored>GitHub</Button>
+                <Button colored>LiveDemo</Button>
+                <Button colored>Download</Button>
+            </CardActions>
+          <CardMenu style={{color: '#ffff'}}>
+          <IconButton name="" />
+          </CardMenu>
+          </Card>
         )
     } else if (this.state.activeTab === 3){
         return (
