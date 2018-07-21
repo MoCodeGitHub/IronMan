@@ -12,7 +12,7 @@ class Projects extends Component {
       return(
       <div className="projects-grid">
       <Card shadow={5} style={{minWidth: '1000', margin: 'auto'}}>
-      <CardTitle style={{color: '#ffff', height: '800px',background: 'url(https://cdn.pixabay.com/photo/2016/08/17/13/50/pokemon-1600484_960_720.jpg) center / cover'}}></CardTitle>
+      <CardTitle style={{color: '#ffff', height: '500px',background: 'url(https://upload.wikimedia.org/wikipedia/commons/1/10/Empire_State_Building_%28aerial_view%29.jpg) center / cover'}}></CardTitle>
       <CardText>
       ReactJS Excercise
       </CardText>
@@ -27,7 +27,7 @@ class Projects extends Component {
       </Card>
 
       <Card shadow={5} style={{minWidth: '1000', margin: 'auto'}}>
-      <CardTitle style={{color: '#ffff', height: '800px',background: 'url(https://cdn.pixabay.com/photo/2016/08/17/13/50/pokemon-1600484_960_720.jpg) center / cover'}}></CardTitle>
+      <CardTitle style={{color: '#ffff', height: '500px',background: 'url(https://upload.wikimedia.org/wikipedia/commons/1/10/Empire_State_Building_%28aerial_view%29.jpg) center / cover'}}></CardTitle>
       <CardText>
       ReactJS Excercise
       </CardText>
@@ -42,7 +42,7 @@ class Projects extends Component {
       </Card>
 
       <Card shadow={5} style={{minWidth: '1000', margin: 'auto'}}>
-      <CardTitle style={{color: '#ffff', height: '800px',background: 'url(https://cdn.pixabay.com/photo/2016/08/17/13/50/pokemon-1600484_960_720.jpg) center / cover'}}></CardTitle>
+      <CardTitle style={{color: '#ffff', height: '500px',background: 'url(https://upload.wikimedia.org/wikipedia/commons/1/10/Empire_State_Building_%28aerial_view%29.jpg) center / cover'}}></CardTitle>
       <CardText>
       ReactJS Excercise
       </CardText>
@@ -62,7 +62,7 @@ class Projects extends Component {
         return (
           <div className="projects-grid">
           <Card shadow={5} style={{minWidth: '1000', margin: 'auto'}}>
-          <CardTitle style={{color: '#ffff', height: '800px',background: 'url(https://cdn.pixabay.com/photo/2017/03/21/00/28/steve-jobs-2160725_960_720.png) center / cover'}}>Swift</CardTitle>
+          <CardTitle style={{color: '#ffff', height: '500px',background: 'url(https://upload.wikimedia.org/wikipedia/commons/5/54/Steve_Jobs.jpg) center / cover'}}>Swift</CardTitle>
           <CardText>
           Swift Project
           </CardText>
@@ -76,7 +76,7 @@ class Projects extends Component {
           </CardMenu>
           </Card>
           <Card shadow={5} style={{minWidth: '1000', margin: 'auto'}}>
-          <CardTitle style={{color: '#ffff', height: '800px',background: 'url(https://cdn.pixabay.com/photo/2017/03/21/00/28/steve-jobs-2160725_960_720.png) center / cover'}}>Swift</CardTitle>
+          <CardTitle style={{color: '#ffff', height: '500px',background: 'url(https://upload.wikimedia.org/wikipedia/commons/5/54/Steve_Jobs.jpg) center / cover'}}>Swift</CardTitle>
           <CardText>
           Swift Project
           </CardText>
@@ -90,7 +90,7 @@ class Projects extends Component {
           </CardMenu>
           </Card>
           <Card shadow={5} style={{minWidth: '1000', margin: 'auto'}}>
-          <CardTitle style={{color: '#ffff', height: '800px',background: 'url(https://cdn.pixabay.com/photo/2017/03/21/00/28/steve-jobs-2160725_960_720.png) center / cover'}}>Swift</CardTitle>
+          <CardTitle style={{color: '#ffff', height: '500px',background: 'url(https://upload.wikimedia.org/wikipedia/commons/5/54/Steve_Jobs.jpg) center / cover'}}>Swift</CardTitle>
           <CardText>
           Swift Project
           </CardText>
@@ -109,7 +109,7 @@ class Projects extends Component {
         return (
         <div className="projects-grid">
           <Card shadow={5} style={{minWidth: '1000', margin: 'auto'}}>
-          <CardTitle style={{color: '#ffff', height: '800px',background: 'url(https://cdn.pixabay.com/photo/2016/11/21/12/26/concrete-1845046_960_720.jpg) center / cover'}}>Hyperloop</CardTitle>
+          <CardTitle style={{color: '#ffff', height: '500px',background: 'url(https://upload.wikimedia.org/wikipedia/commons/thumb/8/8e/Hyperloop_no_tube.png/1024px-Hyperloop_no_tube.png) center / cover'}}>Hyperloop</CardTitle>
           <CardText>
           HYPERLOOP Project
           </CardText>
@@ -124,7 +124,7 @@ class Projects extends Component {
           </Card>
 
           <Card shadow={5} style={{minWidth: '1000', margin: 'auto'}}>
-          <CardTitle style={{color: '#ffff', height: '800px',background: 'url(https://cdn.pixabay.com/photo/2016/11/21/12/26/concrete-1845046_960_720.jpg) center / cover'}}>Hyperloop</CardTitle>
+          <CardTitle style={{color: '#ffff', height: '500px',background: 'url(https://upload.wikimedia.org/wikipedia/commons/thumb/8/8e/Hyperloop_no_tube.png/1024px-Hyperloop_no_tube.png) center / cover'}}>Hyperloop</CardTitle>
           <CardText>
           HYPERLOOP Project
           </CardText>
@@ -139,7 +139,7 @@ class Projects extends Component {
           </Card>
 
           <Card shadow={5} style={{minWidth: '1000', margin: 'auto'}}>
-          <CardTitle style={{color: '#ffff', height: '800px',background: 'url(https://cdn.pixabay.com/photo/2016/11/21/12/26/concrete-1845046_960_720.jpg) center / cover'}}>Hyperloop</CardTitle>
+          <CardTitle style={{color: '#ffff', height: '500px',background: 'url(https://upload.wikimedia.org/wikipedia/commons/thumb/8/8e/Hyperloop_no_tube.png/1024px-Hyperloop_no_tube.png) center / cover'}}>Hyperloop</CardTitle>
           <CardText>
           HYPERLOOP Project
           </CardText>
@@ -158,7 +158,7 @@ class Projects extends Component {
         return (
     <div className="projects-grid">
           <Card shadow={5} style={{minWidth: '1000', margin: 'auto'}}>
-          <CardTitle style={{color: '#ffff', height: '800px',background: 'url(https://cdn.pixabay.com/photo/2015/02/17/16/08/astronaut-639570_960_720.jpg) center / cover'}}>MOON MISSION</CardTitle>
+          <CardTitle style={{color: '#ffff', height: '500px',background: 'url(https://upload.wikimedia.org/wikipedia/commons/thumb/0/09/Apollo_11_Launch_-_GPN-2000-000628.jpg/819px-Apollo_11_Launch_-_GPN-2000-000628.jpg) center / cover'}}>MOON MISSION</CardTitle>
           <CardText>
           Apollo Missions to the Moon
           </CardText>
@@ -173,7 +173,7 @@ class Projects extends Component {
           </Card>
 
           <Card shadow={5} style={{minWidth: '1000', margin: 'auto'}}>
-          <CardTitle style={{color: '#ffff', height: '800px',background: 'url(https://cdn.pixabay.com/photo/2015/02/17/16/08/astronaut-639570_960_720.jpg) center / cover'}}>MOON MISSION</CardTitle>
+          <CardTitle style={{color: '#ffff', height: '500px',background: 'url(https://upload.wikimedia.org/wikipedia/commons/thumb/0/09/Apollo_11_Launch_-_GPN-2000-000628.jpg/819px-Apollo_11_Launch_-_GPN-2000-000628.jpg) center / cover'}}>MOON MISSION</CardTitle>
           <CardText>
           Apollo Missions to the Moon
           </CardText>
@@ -188,7 +188,7 @@ class Projects extends Component {
           </Card>
 
           <Card shadow={5} style={{minWidth: '1000', margin: 'auto'}}>
-          <CardTitle style={{color: '#ffff', height: '800px',background: 'url(https://cdn.pixabay.com/photo/2015/02/17/16/08/astronaut-639570_960_720.jpg) center / cover'}}>MOON MISSION</CardTitle>
+          <CardTitle style={{color: '#ffff', height: '500px',background: 'url(https://upload.wikimedia.org/wikipedia/commons/thumb/0/09/Apollo_11_Launch_-_GPN-2000-000628.jpg/819px-Apollo_11_Launch_-_GPN-2000-000628.jpg) center / cover'}}>MOON MISSION</CardTitle>
           <CardText>
           Apollo Missions to the Moon
           </CardText>
