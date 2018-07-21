@@ -16,6 +16,10 @@ class Projects extends Component {
         return (
           <div><h1>This is Swift</h1></div>
       )
+    } else if (this.state.activeTab === 2){
+        return (
+          <div><h1>This is the Hyperloop Mission</h1></div>
+        )
     }
   }
 
