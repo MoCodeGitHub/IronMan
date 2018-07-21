@@ -10,6 +10,7 @@ class Projects extends Component {
   toggleCategories() {
     if(this.state.activeTab === 0){
       return(
+      <div className="projects-grid">
       <Card shadow={5} style={{minWidth: '1000', margin: 'auto'}}>
       <CardTitle style={{color: '#ffff', height: '800px',background: 'url(https://cdn.pixabay.com/photo/2016/08/17/13/50/pokemon-1600484_960_720.jpg) center / cover'}}></CardTitle>
       <CardText>
@@ -24,6 +25,38 @@ class Projects extends Component {
       <IconButton name="" />
       </CardMenu>
       </Card>
+
+      <Card shadow={5} style={{minWidth: '1000', margin: 'auto'}}>
+      <CardTitle style={{color: '#ffff', height: '800px',background: 'url(https://cdn.pixabay.com/photo/2016/08/17/13/50/pokemon-1600484_960_720.jpg) center / cover'}}></CardTitle>
+      <CardText>
+      ReactJS Excercise
+      </CardText>
+        <CardActions>
+            <Button colored>GitHub</Button>
+            <Button colored>LiveDemo</Button>
+            <Button colored>Download</Button>
+        </CardActions>
+      <CardMenu style={{color: '#ffff'}}>
+      <IconButton name="" />
+      </CardMenu>
+      </Card>
+
+      <Card shadow={5} style={{minWidth: '1000', margin: 'auto'}}>
+      <CardTitle style={{color: '#ffff', height: '800px',background: 'url(https://cdn.pixabay.com/photo/2016/08/17/13/50/pokemon-1600484_960_720.jpg) center / cover'}}></CardTitle>
+      <CardText>
+      ReactJS Excercise
+      </CardText>
+        <CardActions>
+            <Button colored>GitHub</Button>
+            <Button colored>LiveDemo</Button>
+            <Button colored>Download</Button>
+        </CardActions>
+      <CardMenu style={{color: '#ffff'}}>
+      <IconButton name="" />
+      </CardMenu>
+      </Card>
+</div>
+
 )
     } else if (this.state.activeTab === 1){
         return (
@@ -89,13 +122,11 @@ class Projects extends Component {
       <Tab>Moon Mission</Tab>
       </Tabs>
 
-    <section className="projects-grid">
-      <Grid className="projects-grid">
+      <Grid>
         <Cell col={12}>
           <div className="content">{this.toggleCategories()}</div>
         </Cell>
       </Grid>
-    </section>
       </div>
     )
   }
