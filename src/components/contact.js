@@ -1,5 +1,5 @@
 import React, {Component} from 'react';
-import { Grid, Cell } from 'react-mdl';
+import { Grid, Cell, List, ListItemContent, ListItem } from 'react-mdl';
 
 class Contact extends Component {
   render() {
@@ -14,8 +14,33 @@ class Contact extends Component {
       />
       <p style={{ width: '75%', margin: 'auto', paddingTop: '1em'}}> ELON MUSK is a business magnate, investor and engineer. He is the founder, and lead designer of SpaceX; co-founder, CEO, and product architect of Tesla, Inc.</p>
       </Cell>
-      <Cell col={6}>Half page</Cell>
-      </Grid></div>
+      <Cell col={6}><h2>Contact me</h2>
+      <hr/>
+<div className="contact-list">
+      <List>
+        <ListItem>
+          <ListItemContent style={{fontSize: '30px', fontFamily: 'Anton'}}>
+              <i className="fa fa-phone-square" aria-hidden="true"/>
+                  (123) 555-7790
+                    </ListItemContent>
+                    </ListItem>
+                    <ListItem>
+                    <ListItemContent style={{fontSize: '30px', fontFamily: 'Anton'}}>
+                    <i className="fa fa-envelope" aria-hidden="true"/>
+                    elonmusk5000@yahoo.com
+                    </ListItemContent>
+                    </ListItem>
+                    <ListItem>
+                    <ListItemContent style={{fontSize: '30px', fontFamily: 'Anton'}}>
+                    <i className="fa fa-skype" aria-hidden="true"/>
+                    MySkypeID: Martian1
+                    </ListItemContent>
+                </ListItem>
+        </List>
+        </div>
+      </Cell>
+      </Grid><
+      /div>
     )
   }
 }
