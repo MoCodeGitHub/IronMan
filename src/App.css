@@ -71,3 +71,12 @@
   border: 2px solid red;
   margin-bottom: 20px;
 }
+
+.contact-grid h2 {
+  font-family: 'Anton', sans-serif;
+}
+
+.contact-grid p {
+  font-family: 'Oxygen', sans-serif;
+  font-weight: bold;
+}
