@@ -12,6 +12,7 @@ class Contact extends Component {
         alt="avatar"
         style={{height: '250px'}}
       />
+      <p style={{ width: '75%', margin: 'auto', paddingTop: '1em'}}> ELON MUSK is a business magnate, investor and engineer. He is the founder, and lead designer of SpaceX; co-founder, CEO, and product architect of Tesla, Inc.</p>
       </Cell>
       <Cell col={6}>Half page</Cell>
       </Grid></div>
