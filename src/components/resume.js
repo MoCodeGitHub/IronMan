@@ -6,7 +6,7 @@ class Resume extends Component {
     return (
       <div><Grid>
       <Cell col={4}>Left</Cell>
-      <Cell className="resume-right-col" col={4}>Right</Cell>
+      <Cell className="resume-right-col" col={8}>Right</Cell>
       </Grid>
       </div>
     )
