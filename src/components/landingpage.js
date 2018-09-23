@@ -14,9 +14,9 @@ class Landing extends Component {
           className="avatar-img"
           />
           <div className="banner-text">
-          <h1>Full Stack Developer</h1>
+          <h1>Elon Musk</h1>
           <hr></hr>
-          <p>HTML/CSS | JavaScript | Ruby | Perl | Java | Swift | React | LaLaScript | ETC </p>
+          <p>SpaceX | Hyperloop | Mars Mission | Solar City | Te$la | Boring Company | ETC </p>
             </div>
           </Cell>
         </Grid>
