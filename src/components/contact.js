@@ -6,13 +6,13 @@ class Contact extends Component {
     return (
       <div className="contact-body">
       <Grid className="contact-grid">
-      <Cell col={6}><h2>Elon Musk</h2>
+      <Cell col={6}><h2>Tony Stark</h2>
       <img
-        src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/49/Elon_Musk_2015.jpg/327px-Elon_Musk_2015.jpg"
+        src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d3/Robert_Downey%2C_Jr._2012.jpg/357px-Robert_Downey%2C_Jr._2012.jpg"
         alt="avatar"
         style={{height: '250px'}}
       />
-      <p style={{ width: '75%', margin: 'auto', paddingTop: '1em'}}> ELON MUSK is a business magnate, investor and engineer. He is the founder, and lead designer of SpaceX; co-founder, CEO, and product architect of Tesla, Inc.</p>
+      <p style={{ width: '75%', margin: 'auto', paddingTop: '1em'}}> Tony Stark is a billionaire, playboy and philanthropist. He is a founding member of the Avengers Initiative and the lead designer at Stark Industries.</p>
       </Cell>
       <Cell col={6}><h2>Contact me</h2>
       <hr/>
@@ -27,13 +27,13 @@ class Contact extends Component {
                     <ListItem>
                     <ListItemContent style={{fontSize: '30px', fontFamily: 'Anton'}}>
                     <i className="fa fa-envelope" aria-hidden="true"/>
-                    elonmusk5000@yahoo.com
+                    TonyStarkIndustries5000@yahoo.com
                     </ListItemContent>
                     </ListItem>
                     <ListItem>
                     <ListItemContent style={{fontSize: '30px', fontFamily: 'Anton'}}>
                     <i className="fa fa-skype" aria-hidden="true"/>
-                    MySkypeID: Martian1
+                    MySkypeID: IAmIronMan1
                     </ListItemContent>
                 </ListItem>
         </List>

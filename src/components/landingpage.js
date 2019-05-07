@@ -16,7 +16,7 @@ class Landing extends Component {
           <div className="banner-text">
           <h1>Tony Stark / Iron Man</h1>
           <hr></hr>
-          <p>Avengers | Spider Man | War Machine | Captain America | Stark Industries | ETC </p>
+          <p>Billionaire | Playboy | Philantrophist | Stark Industries | Avenger </p>
             </div>
           </Cell>
         </Grid>

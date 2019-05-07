@@ -11,10 +11,9 @@ class App extends Component {
       <Layout>
           <Header className="header-color" title="Stark Industries" scroll>
               <Navigation>
-                  <Link to="/resume">Resume</Link>
+                  <Link to="/">Home</Link>
                   <Link to="/projects">Projects</Link>
                   <Link to="/contact">Contact</Link>
-                  <Link to="/">Home</Link>
               </Navigation>
           </Header>
           <Content>
