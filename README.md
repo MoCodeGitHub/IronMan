@@ -5,3 +5,15 @@
 ![projects](https://user-images.githubusercontent.com/34093736/57296181-a5465500-70cc-11e9-8bdf-c43372c0b52e.png)
 
 ![hulk](https://user-images.githubusercontent.com/34093736/57296195-af685380-70cc-11e9-9543-ed17f37088b8.png)
+
+# What I Learned
+
+* How to use grid-based layouts.
+* How to create multiple related pages and work with components.
+* Enjoyed learning more about how enhance a UI with REACT as a framework.
+
+# Set up
+
+* Git clone repository.
+* npm / yarn install.
+* npm / yarn start.
