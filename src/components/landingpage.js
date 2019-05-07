@@ -9,14 +9,14 @@ class Landing extends Component {
       <Grid className="landing-grid">
           <Cell col={12}>
           <img
-          src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/49/Elon_Musk_2015.jpg/327px-Elon_Musk_2015.jpg"
+          src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d3/Robert_Downey%2C_Jr._2012.jpg/357px-Robert_Downey%2C_Jr._2012.jpg"
           alt="avatar"
           className="avatar-img"
           />
           <div className="banner-text">
-          <h1>Elon Musk</h1>
+          <h1>Tony Stark / Iron Man</h1>
           <hr></hr>
-          <p>SpaceX | Hyperloop | Mars Mission | Solar City | Te$la | Boring Company | ETC </p>
+          <p>Avengers | Spider Man | War Machine | Captain America | Stark Industries | ETC </p>
             </div>
           </Cell>
         </Grid>
