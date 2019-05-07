@@ -10,7 +10,7 @@
 
 * How to use grid-based layouts.
 * How to create multiple related pages and work with components.
-* Enjoyed learning more about how enhance a UI with REACT as a framework.
+* Enjoyed learning more about how to enhance a UI with REACT as a framework.
 
 # Set up
 
